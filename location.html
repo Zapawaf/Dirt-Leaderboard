@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dirt Rally 2.0 — Location Leaderboard</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body class="location">
+  <header class="header">
+    <div class="headerRow">
+      <div>
+        <h1 id="locTitle">Location</h1>
+        <p class="sub">Default is Any direction + All stages. Set filters only when you want to drill in.</p>
+      </div>
+      <div class="headerActions">
+        <a class="btn secondary" href="./index.html">← Home</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="layout">
+    <!-- Persistent sidebar -->
+    <aside class="side card sidecard">
+      <h2 class="sideSection">Submit a run</h2>
+      <a class="btn full" href="./index.html">New submission</a>
+      <div class="sideSpacer"></div>
+      <h2>Locations</h2>
+      <input id="navSearch" class="quickSearch" type="text" placeholder="Search location..." autocomplete="off" />
+      <div id="navLocations" class="quickLocations" aria-label="Locations"></div>
+      <div class="quickHint">
+        Locations stay here so you can bounce around quickly.
+      </div>
+    </aside>
+
+    <!-- Location leaderboard -->
+    <section class="card leadercard">
+      <h2>Leaderboard</h2>
+
+      <div class="filters">
+        <label>
+          View
+          <select id="lbMode">
+            <option value="overall">Overall (top 10)</option>
+            <option value="bestPerPlayer">Best per player</option>
+          </select>
+        </label>
+
+        <div class="filterGroup">
+          <div class="filterLabel">Direction</div>
+          <div class="quickDirToggle" role="group" aria-label="Direction filter">
+            <button id="dirAny" class="chip active" type="button">Any</button>
+            <button id="dirForward" class="chip" type="button">Forward</button>
+            <button id="dirReverse" class="chip" type="button">Reverse</button>
+          </div>
+        </div>
+
+        <label class="stagePick">
+          Stage (optional)
+          <select id="stagePick"></select>
+        </label>
+
+        <button id="lbClear" class="btn secondary" type="button">Clear</button>
+      </div>
+
+      <div class="tableWrap">
+        <table class="table" id="lbTable">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Name</th>
+              <th>Time</th>
+              <th>Stage</th>
+              <th>Dir</th>
+              <th>Disc.</th>
+              <th>Class</th>
+              <th>Vehicle</th>
+              <th>When</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <p class="hint">
+        This draft stores runs in <code>localStorage</code> (per device/browser). Next step: shared database (Supabase) + optional screenshots.
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>Draft v0 — local-only</span>
+  </footer>
+
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

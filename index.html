@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dirt Rally 2.0 — Friends Leaderboard</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body class="home">
+  <header class="header">
+    <h1>Dirt Rally 2.0 — Friends Leaderboard</h1>
+    <p class="sub">Honor-system time submissions. Draft stores runs in your browser (localStorage).</p>
+  </header>
+
+  <main class="layout">
+    <!-- Persistent sidebar -->
+    <aside class="side card sidecard">
+      <h2>Locations</h2>
+      <input id="navSearch" class="quickSearch" type="text" placeholder="Search location..." autocomplete="off" />
+      <div id="navLocations" class="quickLocations" aria-label="Locations"></div>
+      <div class="quickHint">
+        Click a location to view its leaderboard (Any/Forward/Reverse + optional stage).
+      </div>
+    </aside>
+
+    <!-- Submission form (main page) -->
+    <section class="card submitcard">
+      <h2>Submit a run</h2>
+
+      <div class="grid">
+        <label>
+          Name
+          <input id="playerName" type="text" placeholder="Your name" autocomplete="off" />
+        </label>
+
+        <label>
+          Discipline
+          <select id="discipline">
+            <option value="Rally">Rally</option>
+            <option value="Rallycross">Rallycross</option>
+          </select>
+        </label>
+
+        <label>
+          Location
+          <select id="location"></select>
+        </label>
+
+        <label>
+          Direction
+          <select id="direction"></select>
+        </label>
+
+        <label class="span2">
+          Stage
+          <select id="stage"></select>
+        </label>
+
+        <label>
+          Vehicle class
+          <select id="vehicleClass"></select>
+        </label>
+
+        <label>
+          Vehicle
+          <select id="vehicle"></select>
+        </label>
+
+        <label>
+          Time (mm:ss.mmm)
+          <input id="timeText" type="text" placeholder="03:45.123" inputmode="numeric" />
+          <small>Examples: <code>0345123</code> • <code>3:45.123</code> • <code>45.123</code></small>
+        </label>
+
+        <div class="actions">
+          <button id="submitRun" class="btn">Submit</button>
+          <button id="resetForm" class="btn secondary" type="button">Reset</button>
+        </div>
+
+        <div id="msg" class="msg" aria-live="polite"></div>
+      </div>
+
+      <details class="details">
+        <summary>Advanced</summary>
+        <div class="advanced">
+          <button id="exportRuns" class="btn secondary" type="button">Export runs (JSON)</button>
+          <button id="importRuns" class="btn secondary" type="button">Import runs (JSON)</button>
+          <button id="wipeRuns" class="btn danger" type="button">Wipe ALL local runs</button>
+          <input id="importFile" type="file" accept="application/json" hidden />
+        </div>
+      </details>
+    </section>
+
+    <!-- Recent submissions -->
+    <section class="card recentcard">
+      <h2>Recent submissions</h2>
+      <p class="sub" style="margin-top:-6px;">Latest 10 runs (most recent first).</p>
+
+      <div class="tableWrap">
+        <table class="table" id="recentTable">
+          <thead>
+            <tr>
+              <th>When</th>
+              <th>Name</th>
+              <th>Time</th>
+              <th>Location</th>
+              <th>Stage</th>
+              <th>Dir</th>
+              <th>Disc.</th>
+              <th>Class</th>
+              <th>Vehicle</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <p class="hint">
+        Tip: click a location in the left menu to jump straight to its leaderboard page.
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>Draft v0 — local-only</span>
+  </footer>
+
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
