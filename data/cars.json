@@ -1,0 +1,127 @@
+{
+  "Rally": {
+    "H1 (FWD)": [
+      "Mini Cooper S",
+      "Lancia Fulvia HF",
+      "DS Automobiles DS 21"
+    ],
+    "H2 (FWD)": [
+      "Volkswagen Golf GTI 16v",
+      "Peugeot 205 GTI"
+    ],
+    "H2 (RWD)": [
+      "Ford Escort Mk II",
+      "Alpine Renault A110 1600 S",
+      "Fiat 131 Abarth",
+      "Opel Kadett C GT/E"
+    ],
+    "H3 (RWD)": [
+      "BMW E30 M3 Evo Rally",
+      "Opel Ascona 400",
+      "Lancia Stratos",
+      "Renault 5 Turbo",
+      "Datsun 240Z",
+      "Ford Sierra Cosworth RS500"
+    ],
+    "Group B (RWD)": [
+      "Lancia 037 Evo 2 (DLC)",
+      "Opel Manta 400 (DLC)",
+      "BMW M1 Procar (DLC)",
+      "Porsche 911 SC RS (DLC)"
+    ],
+    "Group B (4WD)": [
+      "Audi Sport quattro S1 E2",
+      "Peugeot 205 T16 Evo 2",
+      "Lancia Delta S4",
+      "Ford RS200",
+      "MG Metro 6R4"
+    ],
+    "R2": [
+      "Ford Fiesta R2",
+      "Opel Adam R2",
+      "Peugeot 208 R2"
+    ],
+    "F2 Kit Car": [
+      "Peugeot 306 Maxi (DLC)",
+      "SEAT Ibiza Kitcar (DLC)",
+      "Volkswagen Golf Kitcar (DLC)"
+    ],
+    "Group A": [
+      "Mitsubishi Lancer Evolution VI",
+      "Subaru Impreza 1995",
+      "Lancia Delta HF Integrale",
+      "Ford Escort RS Cosworth",
+      "Subaru Legacy RS (DLC)"
+    ],
+    "NR4/R4": [
+      "Subaru WRX STI NR4",
+      "Mitsubishi Lancer Evolution X"
+    ],
+    "Up to 2000cc": [
+      "Ford Focus RS Rally 2001 (DLC)",
+      "Subaru Impreza (2001) (DLC)",
+      "Citroën C4 Rally (DLC)",
+      "Škoda Fabia Rally 2005 (DLC)",
+      "Ford Focus RS Rally 2007 (DLC)",
+      "Subaru Impreza (DLC)",
+      "Peugeot 206 Rally (DLC)",
+      "Subaru Impreza S4 Rally (DLC)"
+    ],
+    "R5": [
+      "Ford Fiesta R5",
+      "Ford Fiesta R5 MKII",
+      "Peugeot 208 R5 T16",
+      "Mitsubishi Space Star R5",
+      "ŠKODA Fabia R5",
+      "Citroën C3 R5",
+      "Volkswagen Polo GTI R5"
+    ],
+    "Rally GT": [
+      "Chevrolet Camaro GT4-R",
+      "Porsche 911 RGT Rally Spec"
+    ],
+    "Aston Martin V8 Vantage GT4": [
+      "Ford Mustang GT4",
+      "BMW M2 Competition"
+    ]
+  },
+  "Rallycross": {
+    "RX Super 1600S": [
+      "Volkswagen Polo S1600",
+      "Renault Clio R.S. S1600",
+      "Opel Corsa Super 1600"
+    ],
+    "Crosskart": [
+      "Speedcar Xtrem"
+    ],
+    "Group B (Rallycross)": [
+      "Lancia Delta S4 Rallycross (DLC)",
+      "Ford RS200 Evolution (DLC)",
+      "Peugeot 205 T16 Rallycross (DLC)",
+      "MG Metro 6R4 Rallycross (DLC)"
+    ],
+    "RX2": [
+      "Ford Fiesta OMSE SuperCar Lite"
+    ],
+    "RX Supercars": [
+      "Subaru WRX STI RX",
+      "Peugeot 208 WRX",
+      "Audi S1 EKS RX quattro",
+      "Ford Fiesta Rallycross (Mk8)",
+      "Renault Megane RS RX",
+      "Volkswagen Polo R Supercar",
+      "Ford Fiesta Rallycross (Mk7)"
+    ],
+    "RX Supercars 2019": [
+      "Renault Clio R.S. RX (DLC)",
+      "Renault Megane RS RX (DLC)",
+      "Ford Fiesta Rallycross (Mk8) (DLC)",
+      "Mini Cooper SX1 (DLC)",
+      "Peugeot 208 WRX (DLC)",
+      "Ford Fiesta Rallycross (STARD) (DLC)",
+      "Ford Fiesta RXS Evo 5 (DLC)",
+      "Audi S1 EKS RX quattro (DLC)",
+      "Seat Ibiza RX (DLC)"
+    ]
+  }
+}

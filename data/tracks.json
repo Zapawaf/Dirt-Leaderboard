@@ -1,0 +1,704 @@
+{
+  "Catamarca Province, Argentina": {
+    "Forward": [
+      {
+        "stage": "Las Juntas",
+        "km": 8.25
+      },
+      {
+        "stage": "Valle de los puentes",
+        "km": 7.98
+      },
+      {
+        "stage": "Camino de acantilados y rocas",
+        "km": 5.3
+      },
+      {
+        "stage": "San Isidro",
+        "km": 4.48
+      },
+      {
+        "stage": "Miraflores",
+        "km": 3.35
+      },
+      {
+        "stage": "El Rodeo",
+        "km": 2.84
+      }
+    ],
+    "Reverse": [
+      {
+        "stage": "Camino a La Puerta",
+        "km": 8.25
+      },
+      {
+        "stage": "Valle de los puentes a la inversa",
+        "km": 7.98
+      },
+      {
+        "stage": "Camino de acantilados y rocas inverso",
+        "km": 5.3
+      },
+      {
+        "stage": "Camino a Coneta",
+        "km": 4.48
+      },
+      {
+        "stage": "Huillaprima",
+        "km": 3.35
+      },
+      {
+        "stage": "La Merced",
+        "km": 2.84
+      }
+    ]
+  },
+  "Monaro, Australia": {
+    "Forward": [
+      {
+        "stage": "Mount Kaye Pass",
+        "km": 12.5
+      },
+      {
+        "stage": "Chandlers Creek",
+        "km": 12.34
+      },
+      {
+        "stage": "Bondi Forest",
+        "km": 7.01
+      },
+      {
+        "stage": "Rockton Plains",
+        "km": 6.89
+      },
+      {
+        "stage": "Yambulla Mountain Ascent",
+        "km": 6.64
+      },
+      {
+        "stage": "Noorinbee Ridge Ascent",
+        "km": 5.28
+      }
+    ],
+    "Reverse": [
+      {
+        "stage": "Mount Kaye Pass Reverse",
+        "km": 12.5
+      },
+      {
+        "stage": "Chandlers Creek Reverse",
+        "km": 12.34
+      },
+      {
+        "stage": "Taylor Farm Sprint",
+        "km": 7.01
+      },
+      {
+        "stage": "Rockton Plains Reverse",
+        "km": 6.89
+      },
+      {
+        "stage": "Yambulla Mountain Descent",
+        "km": 6.64
+      },
+      {
+        "stage": "Noorinbee Ridge Descent",
+        "km": 5.28
+      }
+    ]
+  },
+  "Hawkes Bay, New Zealand": {
+    "Forward": [
+      {
+        "stage": "Waimarama Point Forward",
+        "km": 16.06
+      },
+      {
+        "stage": "Te Awanga Forward",
+        "km": 11.48
+      },
+      {
+        "stage": "Waimarama Sprint Forward",
+        "km": 8.81
+      },
+      {
+        "stage": "Elsthorpe Sprint Forward",
+        "km": 7.32
+      },
+      {
+        "stage": "Ocean Beach Sprint Forward",
+        "km": 6.61
+      },
+      {
+        "stage": "Te Awanga Sprint Forward",
+        "km": 4.79
+      }
+    ],
+    "Reverse": [
+      {
+        "stage": "Waimarama Point Reverse",
+        "km": 16.06
+      },
+      {
+        "stage": "Ocean Beach",
+        "km": 11.48
+      },
+      {
+        "stage": "Waimarama Sprint Reverse",
+        "km": 8.81
+      },
+      {
+        "stage": "Elsthorpe Sprint Reverse",
+        "km": 7.32
+      },
+      {
+        "stage": "Ocean Beach Sprint Reverse",
+        "km": 6.61
+      },
+      {
+        "stage": "Te Awanga Sprint Reverse",
+        "km": 4.79
+      }
+    ]
+  },
+  "Ribadelles, Spain": {
+    "Forward": [
+      {
+        "stage": "Comienzo De Bellriu",
+        "km": 14.34
+      },
+      {
+        "stage": "Centenera",
+        "km": 10.57
+      },
+      {
+        "stage": "Ascenso por valle el Gualet",
+        "km": 7.0
+      },
+      {
+        "stage": "Viñedos dentro del valle Parra",
+        "km": 6.81
+      },
+      {
+        "stage": "Viñedos Dardenyà",
+        "km": 6.55
+      },
+      {
+        "stage": "Descenso por carretera",
+        "km": 4.58
+      }
+    ],
+    "Reverse": [
+      {
+        "stage": "Final de Bellriu",
+        "km": 14.34
+      },
+      {
+        "stage": "Camino a Centenera",
+        "km": 10.57
+      },
+      {
+        "stage": "Salida desde Montverd",
+        "km": 7.0
+      },
+      {
+        "stage": "Ascenso bosque Montverd",
+        "km": 6.81
+      },
+      {
+        "stage": "Viñedos Dardenyà inversa",
+        "km": 6.55
+      },
+      {
+        "stage": "Subida por carretera",
+        "km": 4.58
+      }
+    ]
+  },
+  "New England, USA": {
+    "Forward": [
+      {
+        "stage": "Beaver Creek Trail Forward",
+        "km": 12.86
+      },
+      {
+        "stage": "North Fork Pass",
+        "km": 12.5
+      },
+      {
+        "stage": "Hancock Creek Burst",
+        "km": 6.89
+      },
+      {
+        "stage": "Fuller Mountain Ascent",
+        "km": 6.64
+      },
+      {
+        "stage": "Tolt Valley Sprint Forward",
+        "km": 6.1
+      },
+      {
+        "stage": "Hancock Hill Sprint Forward",
+        "km": 6.01
+      }
+    ],
+    "Reverse": [
+      {
+        "stage": "Beaver Creek Trail Reverse",
+        "km": 12.86
+      },
+      {
+        "stage": "North Fork Pass Reverse",
+        "km": 12.5
+      },
+      {
+        "stage": "Fury Lake Depart",
+        "km": 6.89
+      },
+      {
+        "stage": "Fuller Mountain Descent",
+        "km": 6.64
+      },
+      {
+        "stage": "Tolt Valley Sprint Reverse",
+        "km": 6.1
+      },
+      {
+        "stage": "Hancock Hill Sprint Reverse",
+        "km": 6.01
+      }
+    ]
+  },
+  "Łęczna County, Poland": {
+    "Forward": [
+      {
+        "stage": "Zaróbka",
+        "km": 16.46
+      },
+      {
+        "stage": "Zienki",
+        "km": 13.42
+      },
+      {
+        "stage": "Marynka",
+        "km": 9.25
+      },
+      {
+        "stage": "Kopina",
+        "km": 7.03
+      },
+      {
+        "stage": "Lejno",
+        "km": 6.72
+      },
+      {
+        "stage": "Czarny Las",
+        "km": 6.62
+      }
+    ],
+    "Reverse": [
+      {
+        "stage": "Zagórze",
+        "km": 16.46
+      },
+      {
+        "stage": "Jezioro Rotcze",
+        "km": 13.42
+      },
+      {
+        "stage": "Borysik",
+        "km": 9.25
+      },
+      {
+        "stage": "Józefin",
+        "km": 7.03
+      },
+      {
+        "stage": "Jagodno",
+        "km": 6.82
+      },
+      {
+        "stage": "Jezioro Lukie",
+        "km": 6.62
+      }
+    ]
+  },
+  "Monte Carlo, Monaco": {
+    "Forward": [
+      {
+        "stage": "Vallée descendante",
+        "km": 10.87
+      },
+      {
+        "stage": "Pra d’Alart",
+        "km": 9.83
+      },
+      {
+        "stage": "Col de Turini - Départ en descente",
+        "km": 6.85
+      },
+      {
+        "stage": "Gordolon - Courte montée",
+        "km": 5.17
+      },
+      {
+        "stage": "Col de Turini sprint en montée",
+        "km": 4.73
+      },
+      {
+        "stage": "Route de Turini Descente",
+        "km": 3.95
+      }
+    ],
+    "Reverse": [
+      {
+        "stage": "Route de Turini",
+        "km": 10.87
+      },
+      {
+        "stage": "Col de Turini Départ",
+        "km": 9.83
+      },
+      {
+        "stage": "Route de Turini Montée",
+        "km": 6.84
+      },
+      {
+        "stage": "Col de Turini - Descente",
+        "km": 5.17
+      },
+      {
+        "stage": "Col de Turini - Sprint en descente",
+        "km": 4.73
+      },
+      {
+        "stage": "Approche du Col de Turini - Montée",
+        "km": 3.95
+      }
+    ]
+  },
+  "Värmland, Sweden": {
+    "Forward": [
+      {
+        "stage": "Hamra",
+        "km": 12.34
+      },
+      {
+        "stage": "Ransbysäter",
+        "km": 11.98
+      },
+      {
+        "stage": "Elgsjön",
+        "km": 7.28
+      },
+      {
+        "stage": "Stor-jangen Sprint",
+        "km": 6.69
+      },
+      {
+        "stage": "Älgsjön Sprint",
+        "km": 5.25
+      },
+      {
+        "stage": "Östra Hinnsjön",
+        "km": 5.19
+      }
+    ],
+    "Reverse": [
+      {
+        "stage": "Lysvik",
+        "km": 12.34
+      },
+      {
+        "stage": "Norraskoga",
+        "km": 11.98
+      },
+      {
+        "stage": "Älgsjön",
+        "km": 7.28
+      },
+      {
+        "stage": "Stor-jangen Sprint Reverse",
+        "km": 6.69
+      },
+      {
+        "stage": "Skogsrallyt",
+        "km": 5.25
+      },
+      {
+        "stage": "Björklangen",
+        "km": 5.19
+      }
+    ]
+  },
+  "Germany, Baumholder": {
+    "Forward": [
+      {
+        "stage": "Oberstein",
+        "km": 11.67
+      },
+      {
+        "stage": "Hammerstein",
+        "km": 10.81
+      },
+      {
+        "stage": "Kreuzungsring",
+        "km": 6.31
+      },
+      {
+        "stage": "Verbundsring",
+        "km": 5.85
+      },
+      {
+        "stage": "Innerer Feld-Sprint",
+        "km": 5.56
+      },
+      {
+        "stage": "Waldaufstieg",
+        "km": 5.39
+      }
+    ],
+    "Reverse": [
+      {
+        "stage": "Frauenberg",
+        "km": 11.67
+      },
+      {
+        "stage": "Ruschberg",
+        "km": 10.7
+      },
+      {
+        "stage": "Kreuzungsring reverse",
+        "km": 6.31
+      },
+      {
+        "stage": "Verbundsring Reverse",
+        "km": 5.85
+      },
+      {
+        "stage": "Innerer Feld-Sprint (umgekehrt)",
+        "km": 5.56
+      },
+      {
+        "stage": "Waldabstieg",
+        "km": 5.39
+      }
+    ]
+  },
+  "Jämsä, Finland": {
+    "Forward": [
+      {
+        "stage": "Kakaristo",
+        "km": 16.2
+      },
+      {
+        "stage": "Kontinjärvi",
+        "km": 15.05
+      },
+      {
+        "stage": "Kotajärvi",
+        "km": 8.1
+      },
+      {
+        "stage": "Iso Oksjärvi",
+        "km": 8.04
+      },
+      {
+        "stage": "Kailajärvi",
+        "km": 7.51
+      },
+      {
+        "stage": "Naarajärvi",
+        "km": 7.43
+      }
+    ],
+    "Reverse": [
+      {
+        "stage": "Pitkäjärvi",
+        "km": 16.2
+      },
+      {
+        "stage": "Hämelahti",
+        "km": 14.96
+      },
+      {
+        "stage": "Oksala",
+        "km": 8.1
+      },
+      {
+        "stage": "Järvenkylä",
+        "km": 8.05
+      },
+      {
+        "stage": "Jyrkysjärvi",
+        "km": 7.55
+      },
+      {
+        "stage": "Paskuri",
+        "km": 7.34
+      }
+    ]
+  },
+  "Argolis, Greece": {
+    "Forward": [
+      {
+        "stage": "Anodou Farmakas",
+        "km": 9.6
+      },
+      {
+        "stage": "Pomona Érixi",
+        "km": 5.09
+      },
+      {
+        "stage": "Koryfi Dafni",
+        "km": 4.5
+      },
+      {
+        "stage": "Perasma Platani",
+        "km": 10.69
+      },
+      {
+        "stage": "Ourea Spevsi",
+        "km": 5.74
+      },
+      {
+        "stage": "Abies Koiláda",
+        "km": 7.09
+      }
+    ],
+    "Reverse": [
+      {
+        "stage": "Kathodo Leontiou",
+        "km": 9.6
+      },
+      {
+        "stage": "Fourkéta Kourva",
+        "km": 4.5
+      },
+      {
+        "stage": "Ampelonas Ormi",
+        "km": 4.95
+      },
+      {
+        "stage": "Tsiristra Théa",
+        "km": 10.36
+      },
+      {
+        "stage": "Pedines Epidaxi",
+        "km": 5.38
+      },
+      {
+        "stage": "Ypsona tou Dasos",
+        "km": 6.59
+      }
+    ]
+  },
+  "Powys, Wales": {
+    "Forward": [
+      {
+        "stage": "River Severn Valley",
+        "km": 11.4
+      },
+      {
+        "stage": "Sweet Lamb",
+        "km": 9.9
+      },
+      {
+        "stage": "Fferm Wynt",
+        "km": 5.7
+      },
+      {
+        "stage": "Dyffryn Afon",
+        "km": 5.7
+      },
+      {
+        "stage": "Bidno Moorland",
+        "km": 4.9
+      },
+      {
+        "stage": "Pant Mawr",
+        "km": 4.7
+      }
+    ],
+    "Reverse": [
+      {
+        "stage": "Bronfelen",
+        "km": 11.4
+      },
+      {
+        "stage": "Geufron Forest",
+        "km": 10.0
+      },
+      {
+        "stage": "Fferm Wynt Reverse",
+        "km": 5.7
+      },
+      {
+        "stage": "Dyffryn Afon Reverse",
+        "km": 5.7
+      },
+      {
+        "stage": "Bidno Moorland Reverse",
+        "km": 4.8
+      },
+      {
+        "stage": "Pant Mawr Reverse",
+        "km": 5.1
+      }
+    ]
+  },
+  "Perth and Kinross, Scotland": {
+    "Forward": [
+      {
+        "stage": "Newhouse Bridge",
+        "km": 12.86
+      },
+      {
+        "stage": "South Morningside",
+        "km": 12.58
+      },
+      {
+        "stage": "Annbank Station",
+        "km": 7.77
+      },
+      {
+        "stage": "Rosebank Farm",
+        "km": 7.16
+      },
+      {
+        "stage": "Old Butterstone Muir",
+        "km": 5.82
+      },
+      {
+        "stage": "Glencastle Farm",
+        "km": 5.25
+      }
+    ],
+    "Reverse": [
+      {
+        "stage": "Newhouse Bridge Reverse",
+        "km": 12.98
+      },
+      {
+        "stage": "South Morningside Reverse",
+        "km": 12.66
+      },
+      {
+        "stage": "Annbank Station Reverse",
+        "km": 7.59
+      },
+      {
+        "stage": "Rosebank Farm Reverse",
+        "km": 6.96
+      },
+      {
+        "stage": "Old Butterstone Muir Reverse",
+        "km": 5.66
+      },
+      {
+        "stage": "Glencastle Farm Reverse",
+        "km": 5.24
+      }
+    ]
+  }
+}
