@@ -3,23 +3,25 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Dirt Rally 2.0 — Leaderboard</title>
+  <title>Dirt Rally 2.0 — Friends Leaderboard</title>
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body class="home">
   <header class="header">
-    <h1>Dirt Rally 2.0 — Leaderboard</h1>
-    <p class="sub">Honor-system time submissions.</p>
+    <h1>Dirt Rally 2.0 — Friends Leaderboard</h1>
+    <p class="sub">Honor-system time submissions. Draft stores runs in your browser (localStorage).</p>
   </header>
 
-  <main class="layout">
+  <div id="mobileOverlay" class="mobileOverlay" hidden></div>
+<button id="sidebarHandle" class="sidebarHandle" type="button" aria-label="Toggle locations"></button>
+<main class="layout">
     <!-- Persistent sidebar -->
-    <aside class="side card sidecard">
+    <aside id="locationsPanel" class="side card sidecard">
       <h2>Locations</h2>
       <input id="navSearch" class="quickSearch" type="text" placeholder="Search location..." autocomplete="off" />
       <div id="navLocations" class="quickLocations" aria-label="Locations"></div>
       <div class="quickHint">
-        
+        Click a location to view its leaderboard (Any/Forward/Reverse + optional stage).
       </div>
     </aside>
 
@@ -117,15 +119,16 @@
       </div>
 
       <p class="hint">
-        Tip: click a location in the left menu to jump straight to its leaderboard page or select Go on the right to jump to that scores page.
+        Tip: click a location in the left menu to jump straight to its leaderboard page.
       </p>
     </section>
   </main>
 
   <footer class="footer">
-    <span>v1.0</span>
+    <span>Draft v0 — local-only</span>
   </footer>
 
-  <script type="module" src="./app.js"></script>
+  <script type="module" src="./mobile.js"></script>
+<script type="module" src="./app.js"></script>
 </body>
 </html>

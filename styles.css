@@ -242,3 +242,133 @@ body.home .recentcard{ grid-area: recent; }
 /* Sidebar helpers */
 .btn.full{width:100%}
 .sideSpacer{height:12px}
+
+/* =========================================================
+   MOBILE ONLY (<= 900px)
+   - Locations becomes a slide-out drawer with a centered handle
+   - Desktop is unaffected (all rules are inside media query)
+   ========================================================= */
+
+.mobileOverlay{ display:none; }
+.sidebarHandle{ display:none; }
+
+@media (max-width: 900px){
+  input, select, textarea, button{ font-size:16px; }
+
+  body{ padding: 14px; }
+  .container, .main, .grid, .content, .cards, .page{ width: 100%; }
+
+  .grid{ display: grid; grid-template-columns: 1fr !important; gap: 14px; }
+  .row{ display:block !important; }
+  .col, .card{ width: 100% !important; max-width: 100% !important; }
+
+  input, select, textarea{ width: 100% !important; max-width: 100% !important; }
+
+  .tableWrap{ overflow-x: auto; }
+  table{ min-width: 760px; }
+
+  .mobileOverlay{
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,.55);
+    z-index: 40;
+  }
+  body.sidebar-open #mobileOverlay{ display:block; }
+  body:not(.sidebar-open) #mobileOverlay{ display:none; }
+
+  #locationsPanel{
+    position: fixed !important;
+    top: 50dvh;
+    left: 0;
+    height: min(92dvh, 720px);
+    width: min(86vw, 360px);
+    z-index: 50;
+
+    transform: translate3d(-110%, -50%, 0);
+    transition: transform 160ms ease;
+
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+
+    border-radius: 0 14px 14px 0;
+    background: rgba(12,18,30,.98) !important;
+    backdrop-filter: none !important;
+  }
+  body.sidebar-open #locationsPanel{
+    transform: translate3d(0, -50%, 0);
+  }
+
+  .sidebarHandle{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+    top: 50dvh;
+    left: 0;
+    transform: translateY(-50%);
+
+    z-index: 60;
+    width: 40px;
+    height: 64px;
+
+    border: 1px solid var(--line);
+    border-left: none;
+    background: rgba(17,24,38,.92);
+    color: var(--text);
+    border-radius: 0 12px 12px 0;
+    cursor: pointer;
+    box-shadow: 0 6px 22px rgba(0,0,0,.35);
+  }
+  .sidebarHandle::after{
+    content: "›";
+    font-size: 28px;
+    line-height: 1;
+    opacity: .95;
+  }
+
+  body.sidebar-open .sidebarHandle{
+    left: min(86vw, 360px);
+  }
+  body.sidebar-open .sidebarHandle::after{ content:"‹"; }
+
+  /* Prevent filter controls forcing horizontal overflow */
+  .stagePick{ min-width: 0 !important; width: 100% !important; }
+  .filters label{ min-width: 0; width: 100%; }
+  .filters{ gap: 12px; }
+  .quickDirToggle{ flex-wrap: wrap; }
+
+  /* Make tables less overwhelming on mobile: hide low-value columns */
+  .table{ min-width: 0 !important; }
+  .table th, .table td{ padding: 8px 8px; font-size: 12px; }
+  .tableWrap{ border-radius: 12px; }
+
+  /* Recent submissions: show When / Name / Time / Go */
+  #recentTable th:nth-child(4),
+  #recentTable td:nth-child(4),
+  #recentTable th:nth-child(5),
+  #recentTable td:nth-child(5),
+  #recentTable th:nth-child(6),
+  #recentTable td:nth-child(6),
+  #recentTable th:nth-child(7),
+  #recentTable td:nth-child(7),
+  #recentTable th:nth-child(8),
+  #recentTable td:nth-child(8),
+  #recentTable th:nth-child(9),
+  #recentTable td:nth-child(9){
+    display:none;
+  }
+
+  /* Location leaderboard: show # / Name / Time / Stage / Dir / Delete */
+  #lbTable th:nth-child(6),
+  #lbTable td:nth-child(6),
+  #lbTable th:nth-child(7),
+  #lbTable td:nth-child(7),
+  #lbTable th:nth-child(8),
+  #lbTable td:nth-child(8),
+  #lbTable th:nth-child(9),
+  #lbTable td:nth-child(9){
+    display:none;
+  }
+
+}
