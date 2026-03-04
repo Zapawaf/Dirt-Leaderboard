@@ -11,7 +11,7 @@
     <div class="headerRow">
       <div>
         <h1 id="locTitle">Location</h1>
-        <p class="sub">Default is Any direction + All stages. Set filters only when you want to drill in.</p>
+        <p class="sub">Default is Any direction + Any stage.</p>
       </div>
       <div class="headerActions">
         <a class="btn secondary" href="./index.html">← Home</a>
@@ -30,8 +30,6 @@
       <h2>Locations</h2>
       <input id="navSearch" class="quickSearch" type="text" placeholder="Search location..." autocomplete="off" />
       <div id="navLocations" class="quickLocations" aria-label="Locations"></div>
-      <div class="quickHint">
-        Locations stay here so you can bounce around quickly.
       </div>
     </aside>
 
@@ -84,15 +82,11 @@
           <tbody></tbody>
         </table>
       </div>
-
-      <p class="hint">
-        This draft stores runs in <code>localStorage</code> (per device/browser). Next step: shared database (Supabase) + optional screenshots.
-      </p>
     </section>
   </main>
 
   <footer class="footer">
-    <span>Draft v0 — local-only</span>
+    <span>v1.0</span>
   </footer>
 
   <script type="module" src="./mobile.js"></script>
